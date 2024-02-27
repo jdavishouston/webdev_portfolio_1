@@ -1,0 +1,126 @@
+*{
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+header {
+    position: fixed ;
+    justify-content: space-between
+    
+}
+
+body {
+    background-color: powderblue;
+}
+
+nav {
+    display: flexbox;
+    font-weight: 300;
+    color: plum;
+}
+#nav-bar {
+position: fixed;
+top: 0;
+width: 98%;
+height: 10%;
+font-weight: 400;
+
+}
+
+.nav-bar {
+position: fixed;
+top: 0;
+width: 98%;
+height: 10%;
+font-weight: 300;
+background-color: plum;
+overflow: hidden;
+padding-bottom: 0cm;
+margin-bottom: 0%;
+}
+
+.nav-link {
+    float: left;
+    display:block;
+    color: navy;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    border-bottom: 3px solid plum
+}
+
+#home {
+    text-align: center;
+
+    
+}
+
+#home h1 {
+    margin-top: 50px;
+}
+
+
+    
+
+
+#portrait { 
+    height: 300px;
+    width: auto;
+    align-content: center;
+    
+}
+#work {
+    display: grid;
+    gap: 2em;
+    height: 75%;
+    margin-left: 5%;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+#trabajo {
+    text-align: center;
+}
+
+.work-containers {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+grid-gap: 1em;
+
+}
+
+.work-containers h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.images {
+    height: 100px;
+    width: auto;
+}
+
+.submit {
+    background-color:plum;
+}
+
+@media screen and (max-width: 900px) {
+    .work-containers {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr); }
+ 
+    i {font-size: 3em;
+        }
+
+}
+.icon { 
+    height: 50px;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+}
